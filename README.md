@@ -1,6 +1,6 @@
 # Presentation Timer Project
 
-![Wiring Diagram](wiring_diagram.png)
+![Wiring Diagram](simulation.jpeg)
 
 ## 📄 Overview
 The Presentation Timer is an Arduino Nano-based device designed to help presenters keep track of their allocated time slots for both presentations and Q&A sessions. It provides a visual countdown on a 16x2 LCD display, audio alerts using a buzzer, and visual warnings using LEDs. It also features Bluetooth connectivity, allowing remote control from a smartphone.
@@ -34,7 +34,7 @@ The Presentation Timer is an Arduino Nano-based device designed to help presente
 ---
 
 ## 🔌 Wiring Diagram
-![Wiring Diagram](wiring_diagram.png)
+![Wiring Diagram](simulation.jpeg)
 
 - LCD RS -> D2
 - LCD E -> D3
