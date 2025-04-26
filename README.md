@@ -8,7 +8,7 @@ The Presentation Timer is an Arduino Nano-based device designed to help presente
 ---
 
 ## 📊 Features
-- Set **presentation** and **question** times **in minutes and seconds**.
+- Set **presentation** and **question** times **in minutes**.
 - **Live countdown** displayed in MM:SS format on an LCD.
 - **Yellow LED** blinks when 1 minute remains.
 - **Red LED** flashes and buzzer sounds when time is up.
@@ -57,15 +57,15 @@ The Presentation Timer is an Arduino Nano-based device designed to help presente
 ![Flowchart](flowchart.png)
 
 - Power on -> Welcome screen
-- Set Presentation Minutes and Seconds
-- Set Question Minutes and Seconds
+- Set Presentation Time
+- Set Question & Answer Time
 - Countdown Presentation -> Warning -> Countdown Q&A -> Finish
 
 ---
 
 ## 🌎 Setup Instructions
 1. Wire the components according to the wiring diagram.
-2. Upload the `PresentationTimer.ino` sketch to the Arduino Nano.
+2. Upload the `timer_clock.ino` sketch to the Arduino Nano.
 3. Pair the HC-05 Bluetooth Module with your smartphone (Default PIN: 1234).
 4. Use a Bluetooth Terminal App or custom app to send commands.
 
@@ -81,14 +81,15 @@ The Presentation Timer is an Arduino Nano-based device designed to help presente
 
 | Command | Action |
 |:--------|:-------|
-| SM | Increase Presentation Minutes |
-| SS | Increase Presentation Seconds |
-| QM | Increase Question Minutes |
-| QS | Increase Question Seconds |
+| U | Increase Presentation/ Q&A time |
+| D | Decrease Presentation/ Q&A time |
 | S | Advance to next field or start timer |
 | T | Reset timer |
 
 ---
+
+## 🔌 Blueetooth App Interface
+![Wiring Diagram](app%20interface.jpeg)
 
 ## 🎥 Demo Video
 *(Coming soon - Insert your YouTube link or local video here!)*
